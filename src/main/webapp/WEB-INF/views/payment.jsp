@@ -1,7 +1,7 @@
 <%-- 
     Document   : payment
     Created on : 05 Sep 2014, 12:18:03 PM
-    Author     : Eusuph
+    Author     : Eusuph Qolo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

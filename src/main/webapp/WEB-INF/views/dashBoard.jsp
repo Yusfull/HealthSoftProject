@@ -49,7 +49,7 @@
                     <table border="2">
                         <th>NO</th>
                         <th>PATIENTNO</th>
-                        <th>NAME</th>
+                        <th>NAM</th>
                         <th>ADDRESS</th>
                         <th>PHONENO</th>
                         <th>DOB</th>

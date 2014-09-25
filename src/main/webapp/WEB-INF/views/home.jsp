@@ -1,7 +1,7 @@
 <%-- 
     Document   : home
     Created on : 05 Sep 2014, 12:16:29 PM
-    Author     : Eusuph
+    Author     : Eusuph Qolo
 --%>
 
 <?xml version='1.0' encoding='UTF-8' ?>

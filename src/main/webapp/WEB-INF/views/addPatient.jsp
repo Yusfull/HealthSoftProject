@@ -57,7 +57,7 @@
                             <td>Fist Name :  <input type="text" name="name"><br></td>
                         </tr>
                         <tr>
-                            <td>Fist Name :  <input type="text" name="name"><br></td>
+                            <td>Fist Nme :  <input type="text" name="name"><br></td>
                         </tr>
                         <tr>
                             <td>Fist Name :  <input type="text" name="name"><br></td>

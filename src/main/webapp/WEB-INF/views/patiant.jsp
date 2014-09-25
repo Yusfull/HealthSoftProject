@@ -1,7 +1,7 @@
 <%-- 
     Document   : patiant
     Created on : 05 Sep 2014, 12:17:41 PM
-    Author     : Eusuph
+    Author     : Eusuph Qolo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

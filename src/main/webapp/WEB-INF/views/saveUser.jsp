@@ -1,7 +1,7 @@
 <%-- 
     Document   : saveUser
     Created on : 22 Sep 2014, 4:07:33 PM
-    Author     : Eusuph
+    Author     : Eusuph Qolo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%> 
