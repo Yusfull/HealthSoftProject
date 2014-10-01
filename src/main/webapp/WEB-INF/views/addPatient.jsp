@@ -43,7 +43,7 @@
     <div class="centerDiv">
         <div align="center">
             <p></p>
-            <form method="post" action="">
+            <form method="post" action="addPatient">
                 <center><h2>Patient Details</h2></center><p></p>
                 <center>
                     <table border=0 bgcolor="#776655" width=70% height=150 align=right cellpadding=5 cellspacing=10>
@@ -62,7 +62,7 @@
                         <tr>
                             <td>Fist Name :  <input type="text" name="name"><br></td>
                         </tr>
-                        <input type="button" name=myButton value="HAI">
+                        <input type="Submit" value="Save">
                     </table>
                     
                 </center>

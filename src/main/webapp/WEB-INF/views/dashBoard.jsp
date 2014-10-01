@@ -8,6 +8,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
 
 <html>
     <head>
@@ -38,8 +40,18 @@
         <title>Home</title>
     </head>
     <body>
-
-
+        <div class="well well-lg">
+             <center>
+                        <ul class="nav nav-tabs">
+                        <li> <a href="http://localhost:8080/HealthSoftProject">Home</a></li>
+                        <li><a href="">Dash Board</a></li>
+                        <li><a href="#">Doctor</a></li>
+                        <li><a href="#">Patient</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    </center>
+        </div>
         <div class="centerDiv">
             <div align="center">
                 <h1>Patients</h1>

@@ -31,6 +31,10 @@ public class homeController {
     public String getHome()throws Exception{
        return  "home";       
     }
+     @RequestMapping("chat")
+    public String getChating()throws Exception{
+       return  "index";       
+    }
        
     @RequestMapping(value = "/dash", method = RequestMethod.GET)
     public ModelAndView getDashBoard(){

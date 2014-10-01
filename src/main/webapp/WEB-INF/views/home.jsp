@@ -9,79 +9,60 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  
-    <head>
-        <style type="text/css"> 
-       .centerDiv 
-    { 
-        width: 70%;
-        height:450px; 
-        margin: 0 auto;
-        background-color:whitesmoke ; 
-        border-top-left-radius:15px;
-        border-top-right-radius:15px;
-        border-bottom-left-radius:15px; 
-        border-bottom-right-radius:15px;
-    } </style> 
-        
-<style>
-  body {background-color:lightgrey}
-  h1   {color:black}
-</style>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        
-        <div class="well well-lg">
-           <center> <ceiling><button class="btn btn-success" ng-click="('new')">
-            <span class="glyphicon glyphicon-user"></span> Home
-        </button>
-            
-        <ceiling><button class="btn btn-success" ng-click="addUser('new')">
-            <span class="glyphicon glyphicon-user"></span> Register Patient
-        </button>
-                 
-                 
-  
-           <button 
-                type="button" class="btn btn-success">Dash Board
-            </button>
-   
-            
-            
-          <ceiling>
-            <button 
-                type="button" class="btn btn-success">Success
-            </button>
-        
-            
-            
-        <ceiling>
-            <button type="button" class="btn btn-success" value="saveUser">Successful</button>
-        </center>
-        </div>
-       
-        
-        
-        <div class="centerDiv"> 
-           <div id="slideshow">
+        <head>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <title></title>
+                <meta name="description" content="">
+                    <meta name="viewport" content="width=device-width">
+                            <style>
+                                body {
+                                    padding-top: 50px;
+                                    padding-bottom: 20px;
+                                }
+                            </style>
+                                    <style type="text/css"> 
+                                        .centerDiv 
+                                        { 
+                                            width: 70%;
+                                            height:450px; 
+                                            margin: 0 auto;
+                                            background-color:whitesmoke ; 
+                                            border-top-left-radius:15px;
+                                            border-top-right-radius:15px;
+                                            border-bottom-left-radius:15px; 
+                                            border-bottom-right-radius:15px;
+                                        } </style> 
 
-<%-- 
-       <ul class="slides">
-        <li><img src="<c:url value='/Doctor.jpg'/>" width="620" height="320" alt=" Yho" /></li>
-        <li><img src="\doc1.jpg" width="620" height="320" alt=" Beach" /></li>
-        <li><img src="\doc2.jpg" width="620" height="320" alt="Station" /></li>
-        <li><img src="\doc3.jpg" width="620" height="320" alt="Nature" /></li>
-    </ul>
---%> 
+                                    <style>
+                                        body {background-color:lightgrey}
+                                        h1   {color:black}
+                                    </style>
 
-    <span class="arrow previous"></span>
-    <span class="arrow next"></span>
-</div>
-        </div>
-       
-    </body>
-</html>
+                                    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                                        <title>JSP Page</title>
+                                        </head>
+                                        <body>
+                                            <form name="home" action="navigate" method="get">
+                                                <div class="well well-lg">
+
+                                                    <ul class="nav nav-tabs">
+                                                        <li><a href="#">Home</a></li>
+                                                        <li><a href="http://localhost:8080/HealthSoftProject/dash">Dash Board</a></li>
+                                                        <li><a href="#">Doctor</a></li>
+                                                        <li><a href="#">Patient</a></li>
+                                                        <li><a href="#">Investors</a></li>
+                                                        <li><a href="#">About</a></li>
+                                                    </ul>     
+                                                </div>
+                                                <div class="centerDiv"> 
+                                                    <div id="slideshow">
+                                                        <span class="arrow previous"></span>
+                                                        <img src="http://localhost:8080/HealthSoftProject/WEB-INF/views/Doctor.jpg" alt="HTML tutorial"/>
+                                                        <span class="arrow next"></span>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </body>
+                                        </html>
